@@ -1,0 +1,12 @@
+﻿<Window x:Class="WindowInteracting.ExtraWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:WindowInteracting"
+		mc:Ignorable="d"
+		Title="ExtraWindow" Width="320" Height="240" MinWidth="320" MinHeight="240" MaxWidth="320" MaxHeight="240">
+	<UniformGrid VerticalAlignment="Center">
+		<Label Name="result" HorizontalAlignment="Center"/>
+	</UniformGrid>
+</Window>
